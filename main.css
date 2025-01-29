@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Ledger&display=swap');
+
+:root {
+    --primary-color: #4c00ff;
+    --secondary-color: #2c2c2c;
+    --secondary-color: #e4e4e4;
+    --display-font: 'Ledger', serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.display-1 {
+    font-family: var(--display-font);
+    font-size: clamp(17px, 25px, 30px);
+    font-weight: 300;
+}
+
+.primary-color {
+    color: var(--primary-color) !important;
+}
+
+.primary-bg {
+    background-color: var(--primary-color) !important;
+}
+
+.secondary-color {
+    color: var(--secondary-color) !important;
+}
+
+.secondary-bg {
+    background-color: var(--secondary-color) !important;
+}
